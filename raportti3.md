@@ -2,11 +2,20 @@
 
 ### Repositoryn luominen
 
-Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valitsin GNU GPL3 v3.0, minkä lisäksi pistin ruksin kohtaan, josta sai valittua automaattisen README -tiedoston luonnin. Repositoryn tilaksi valitsin Publicin. Tämän jälkeen siirryin terminaaliin. Päivitin ensin paketit ja asensin gitin
+Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valitsin GNU GPL3 v3.0, minkä lisäksi pistin ruksin kohtaan, josta sai valittua automaattisen README -tiedoston luonnin. Repositoryn tilaksi valitsin Publicin. Tämän jälkeen siirryin terminaaliin. Päivitin ensin paketit ja asensin gitin:
 
 **sudo apt-get update**
 
 **sudo apt-get -y install git**
+
+Kloonasin juuri luomani repositoryn koneelleni komennolla:
+
+**git clone https://github.com/Joni-tech/harjoitus3.git**
+
+Käyttäjän kotikansioon luotiin repositoryn nimeä kantava kansio (harjoitus3). Kansio sisälsi samat tiedostot (LICENCE ja README) mitkä näkyivät GitHubin verkkosivuillakin, olihan kyseessä klooni. Loin kansioon tiedoston, johon aloin kirjoittamaan tätä raporttia. 
+
+**nano harjoitus3/raportti3.md**
+ 
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
