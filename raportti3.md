@@ -25,9 +25,9 @@ Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
 
 **$ git add . && git commit; git pull && git push**
 
-Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit).
+Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit). Samalla kysyttiin GitHubin käyttäjätunnusta ja salasanaa. Tunnuksia kysytään aina, kun muutoksia viedään Gitiin. Tunnuksien jatkuvalta kirjoittamiselta vältytään antamalla komento **git config --global credential.helper "cache --timeout=3600"**, joka muistaa tunnuksesi tunnin ajan (60 x 60 sekuntia).
 
-Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla läysin Markdown-Cheatsheetin, josta sain mallia otsikointiin, boldauksiin jne.
+Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla läysin Markdown-Cheatsheetin, mistä sain mallia otsikointiin, boldauksiin jne.
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
