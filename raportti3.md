@@ -9,23 +9,21 @@ Repository luotiin osoitteeseen:  https://github.com/Joni-tech/harjoitus3
 Repositoryn luomisen jälkeen siirryin terminaaliin, missä päivitin ensin paketit ja asensin gitin:
 
 	sudo apt-get update
-
-**sudo apt-get -y install git**
-
+	sudo apt-get -y install git
 
 Kloonasin juuri luomani repositoryn koneelleni komennolla:
 
-**git clone https://github.com/Joni-tech/harjoitus3.git**
+	git clone https://github.com/Joni-tech/harjoitus3.git
 
 
 Käyttäjän kotihakemistoon luotiin repositoryn nimeä kantava kansio (harjoitus3). Kansio sisälsi samat tiedostot (LICENCE ja README), mitkä näkyivät GitHubin verkkosivuillakin, olihan kyseessä klooni. Loin kansioon tiedoston, johon aloin kirjoittamaan tätä raporttia: 
 
-**nano harjoitus3/raportti3.md**
+	nano harjoitus3/raportti3.md
 
 
 Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
 
-**$ git add . && git commit; git pull && git push**
+	git add . && git commit; git pull && git push
 
 Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit). Samalla kysyttiin GitHubin käyttäjätunnusta ja salasanaa. Tunnuksia kysytään aina, kun muutoksia viedään Gitiin. Tunnuksien jatkuvalta kirjoittamiselta vältytään antamalla komento **git config --global credential.helper "cache --timeout=3600"**, joka muistaa tunnuksesi tunnin ajan (60 x 60 sekuntia).
 
