@@ -5,6 +5,7 @@
 Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valitsin GNU GPL3 v3.0, minkä lisäksi pistin ruksin kohtaan, josta sai valittua automaattisen README -tiedoston luonnin. Repositoryn tilaksi valitsin Publicin. Tämän jälkeen siirryin terminaaliin. Päivitin ensin paketit ja asensin gitin
 
 **sudo apt-get update**
+
 **sudo apt-get -y install git**
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
