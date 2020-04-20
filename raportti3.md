@@ -27,6 +27,7 @@ Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
 
 Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit).
 
+Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla läysin Markdown-Cheatsheetin, josta sain mallia otsikointiin, boldauksiin jne.
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
