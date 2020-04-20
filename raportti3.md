@@ -1,3 +1,5 @@
+Aloitin tehtävien tekemisen 20.4.2020 klo 22:15 (UTC +3)
+
 Käyttämäni komennot on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
 
 ## a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
@@ -30,6 +32,7 @@ Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien k
 Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla läysin Markdown-Cheatsheetin, mistä sain mallia otsikointiin, boldauksiin jne.
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+Keskeytin tehtävien tekemisen 21.4.2020 klo 0:45 (UTC +3)
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
