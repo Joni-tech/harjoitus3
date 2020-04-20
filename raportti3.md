@@ -16,10 +16,18 @@ Kloonasin juuri luomani repositoryn koneelleni komennolla:
 **git clone https://github.com/Joni-tech/harjoitus3.git**
 
 
-Käyttäjän kotihakemistoon luotiin repositoryn nimeä kantava kansio (harjoitus3). Kansio sisälsi samat tiedostot (LICENCE ja README), mitkä näkyivät GitHubin verkkosivuillakin, olihan kyseessä klooni. Loin kansioon tiedoston, johon aloin kirjoittamaan tätä raporttia. 
+Käyttäjän kotihakemistoon luotiin repositoryn nimeä kantava kansio (harjoitus3). Kansio sisälsi samat tiedostot (LICENCE ja README), mitkä näkyivät GitHubin verkkosivuillakin, olihan kyseessä klooni. Loin kansioon tiedoston, johon aloin kirjoittamaan tätä raporttia: 
 
 **nano harjoitus3/raportti3.md**
- 
+
+
+Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
+
+**$ git add . && git commit; git pull && git push**
+
+Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit).
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
