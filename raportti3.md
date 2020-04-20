@@ -1,3 +1,5 @@
+Käyttämäni komennot on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
+
 ## a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
 ### Repositoryn luominen
@@ -6,7 +8,7 @@ Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valits
 Repository luotiin osoitteeseen:  https://github.com/Joni-tech/harjoitus3
 Repositoryn luomisen jälkeen siirryin terminaaliin, missä päivitin ensin paketit ja asensin gitin:
 
-**sudo apt-get update**
+	sudo apt-get update
 
 **sudo apt-get -y install git**
 
