@@ -11,6 +11,9 @@ Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valits
 ![](https://myy.haaga-helia.fi/~bgh330/Linux/1.png "Repositoryn luominen")
  
 Repository luotiin osoitteeseen:  https://github.com/Joni-tech/harjoitus3
+
+![](https://myy.haaga-helia.fi/~bgh330/Linux/2.png "Repository luotu")
+
 Repositoryn luomisen jälkeen siirryin terminaaliin, missä päivitin ensin paketit ja asensin gitin:
 
 	sudo apt-get update
@@ -60,7 +63,9 @@ Lisätietoja: https://git-scm.com/docs/git-log
 
 ### git diff
 
-Komennolla **git diff** pystyin näkemään tekemäni muutokset, joita en vielä ollut vienyt githubiin. Tarkemmin sanoen omalla koneella olevien tiedostojen eron verrattuna gitissä oleviin.
+Komennolla **git diff** pystyin näkemään tekemäni muutokset, joita en vielä ollut vienyt githubiin. Tarkemmin sanoen omalla koneella olevien tiedostojen eron verrattuna gitissä oleviin. Erot näkyivät vihreänä:
+
+![](https://myy.haaga-helia.fi/~bgh330/Linux/3.png "git diff")
 
 Lisätietoja: https://git-scm.com/docs/git-diff
 
@@ -83,6 +88,9 @@ Lisätietoja: https://git-scm.com/docs/git-blame
 
 Kirjoitin jotakin sotkua raporttiini ja tallensin tiedoston. Tämän jälkeen annoin komennon **git reset --hard**. Sain ilmoituksen paluusta edelliseen committiin. Avasin raporttini ja huomasin kirjoittamieni sotkujen poistuneen. Muu sisältö näytti pysyneen muuttumattomana.
 
+![](https://myy.haaga-helia.fi/~bgh330/Linux/4.png "git reset --hard")
+
+
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
 Päätin tehdä moduulin, joka asentaa htop -nimisen ohjelman, jonka kautta voi seurata järjestelmätietoja sekä käynnissä olevia prosesseja. Asensin ohjelman ensin käsin komennolla **sudo apt-get -y install htop**, minkä jälkeen käynnistin sovelluksen komennolla **htop**. Ohjelma käynnistyi, ja näytti mm. käynnissä olleet prosessit. Siirryin tekemään aiemmassa harjoituksessani (https://joni.tech.blog/2020/04/07/ph-h1/) luomalle masterille tilatiedostoa. Tein kansioon /srv/salt/ tiedoston htop.sls, jonka sisällöksi kirjoitin:
@@ -94,7 +102,12 @@ Kävin orjakoneelta katsomassa, ettei htopia ollut asennettuna ennestään, mink
 
 	sudo salt '*' state.apply htop
 
-Aikansa mietittyään sain ilmoituksen onnistuneesta suorituksesta. Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi näyttäen käynnissä olleet prosessit. Luomani tila siis toimi.
+Aikansa mietittyään sain ilmoituksen onnistuneesta suorituksesta.
 
+![](https://myy.haaga-helia.fi/~bgh330/Linux/5.png "htop state ajettu")
+
+Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi näyttäen käynnissä olleet prosessit. Luomani tila siis toimi.
+
+![](https://myy.haaga-helia.fi/~bgh330/Linux/6.png "htop käynnistyi orjalla")
 
 Lopetin tehtävien tekemisen 21.4.2020 klo 18:00 (UTC +3), mutta olin välissä tehnyt muutakin kuin tehtäviä. Koko harjoitukseen ja raportointiin meni tehokasta työaikaa noin viisi tuntia. 
