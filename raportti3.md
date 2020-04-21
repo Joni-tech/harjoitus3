@@ -117,11 +117,16 @@ Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi 
 Lopetin tehtävien tekemisen 21.4.2020 klo 18:00 (UTC +3), mutta olin välissä tehnyt muutakin kuin tehtäviä. Koko harjoitukseen ja raportointiin meni tehokasta työaikaa noin viisi tuntia. 
 
 
-##Lähteet
+## Lähteet
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+
 http://terokarvinen.com/2016/publish-your-project-with-github
+
 https://git-scm.com/docs/git-blame
+
 https://git-scm.com/docs/git-diff
+
 https://git-scm.com/docs/git-log
