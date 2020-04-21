@@ -6,7 +6,10 @@ Käyttämäni komennot on poimittu Tero Karvisen ohjeista: http://terokarvinen.c
 
 ### Repositoryn luominen
 
-Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valitsin GNU GPL3 v3.0, minkä lisäksi pistin ruksin kohtaan, josta sai valittua automaattisen README -tiedoston luonnin. Repositoryn tilaksi valitsin Publicin ja klikkasin "Create Repository". 
+Tein aluksi GitHubissa uuden repositoryn nimeltä harjoitus3. Lisenssiksi valitsin GNU GPL3 v3.0, minkä lisäksi pistin ruksin kohtaan, josta sai valittua automaattisen README -tiedoston luonnin. Repositoryn tilaksi valitsin Publicin ja klikkasin "Create Repository".
+
+!(https://myy.haaga-helia.fi/~bgh330/Linux/1.png "Repositoryn luominen")
+ 
 Repository luotiin osoitteeseen:  https://github.com/Joni-tech/harjoitus3
 Repositoryn luomisen jälkeen siirryin terminaaliin, missä päivitin ensin paketit ja asensin gitin:
 
