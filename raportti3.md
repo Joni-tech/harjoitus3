@@ -42,16 +42,16 @@ Jatkoin tehtävien tekemistä 21.4.2020 klo 14:00 (UTC +3)
 Komennolla **git log** näet listan gitiin viedyistä muutoksista. Ekalla rivillä ilmeisesti muutoksen ID
 
 	commit 4e4134090cbc1df8acf85239af5e9652f8a11fe6
-Author: Joni Smolander <bgh330@myy.haaga-helia.fi>
-Date:   Tue Apr 21 00:44:53 2020 +0300
+	Author: Joni Smolander <bgh330@myy.haaga-helia.fi>
+	Date:   Tue Apr 21 00:44:53 2020 +0300
 
-    A valmis
+	    A valmis
 
-commit 7a0f1155f7e601b2f1de78fe69993da78a83c33a
-Author: Joni Smolander <bgh330@myy.haaga-helia.fi>
-Date:   Tue Apr 21 00:42:10 2020 +0300
+	commit 7a0f1155f7e601b2f1de78fe69993da78a83c33a
+	Author: Joni Smolander <bgh330@myy.haaga-helia.fi>
+	Date:   Tue Apr 21 00:42:10 2020 +0300
 
-    Tekstiä
+	    Tekstiä
 
 
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
