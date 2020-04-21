@@ -39,7 +39,7 @@ Jatkoin tehtävien tekemistä 21.4.2020 klo 14:00 (UTC +3)
 
 ### git log
 
-Komennolla **git log** näet listan gitiin viedyistä muutoksista. Ekalla rivillä ilmeisesti muutoksen ID
+Komennolla **git log** sain listan githubiin viedyistä muutoksista. Ekalla rivillä oli ilmeisesti muutoksen ID, toisella rivillä muutoksen tekijän nimi ja sähköpostiosoite ja kolmannella rivillä muutoksen päivämäärä ja kellonaika.
 
 	commit 4e4134090cbc1df8acf85239af5e9652f8a11fe6
 	Author: Joni Smolander <bgh330@myy.haaga-helia.fi>
@@ -53,6 +53,9 @@ Komennolla **git log** näet listan gitiin viedyistä muutoksista. Ekalla rivill
 
 	    Tekstiä
 
+### git diff
+
+Komennolla **git diff** pystyin näkemään tekemäni muutokset, joita en vielä ollut vienyt githubiin. Tarkemmin sanoen omalla koneella olevien tiedostojen eron verrattuna gitissä oleviin.
 
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
