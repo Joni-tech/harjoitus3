@@ -65,12 +65,12 @@ Lisätietoja: https://git-scm.com/docs/git-diff
 
 Komennolla **git blame** 
 
- 9929affa (Joni Smolander    2020-04-21 00:40:22 +0300 13)       sudo apt-get update
- 7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 14)       sudo apt-get -y install git
- 06f0dda1 (Joni Smolander    2020-04-20 23:59:11 +0300 15) 
- c7c51255 (Joni Smolander    2020-04-20 23:50:11 +0300 16) Kloonasin juuri luomani repositoryn koneelleni komennolla:
- c7c51255 (Joni Smolander    2020-04-20 23:50:11 +0300 17) 
- 7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 18)       git clone https://github.com/Joni-tech/harjoitus3.git
+	9929affa (Joni Smolander    2020-04-21 00:40:22 +0300 13)       sudo apt-get update
+	7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 14)       sudo apt-get -y install git
+	06f0dda1 (Joni Smolander    2020-04-20 23:59:11 +0300 15) 
+	c7c51255 (Joni Smolander    2020-04-20 23:50:11 +0300 16) Kloonasin juuri luomani repositoryn koneelleni komennolla:
+	c7c51255 (Joni Smolander    2020-04-20 23:50:11 +0300 17) 
+	7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 18)       git clone https://github.com/Joni-tech/harjoitus3.git
 
 
 Lisätietoja: https://git-scm.com/docs/git-blame
