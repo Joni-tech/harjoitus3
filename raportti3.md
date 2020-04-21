@@ -1,10 +1,12 @@
 *Tein tehtävän kotona pöytäkoneellani, jossa oli mm. Intel i5-3570K prosessori, 8GB RAM-muistia, Asus GTX 1060 (6GB) näytönohjain ja käyttöjärjestelmänä Win 10. Jatkoin tehtävien tekemistä VirtualBoxissa (versio 6.1.4) luomillani virtuaalikoneilla, joita käytin edellisissä harjoituksissa: https://joni.tech.blog/2020/04/07/ph-h1/ ja https://joni.tech.blog/2020/04/15/ph-h2/*
 
+
 Tämän harjoituksen ohjeet osoitteessa http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
 
 Aloitin tehtävien tekemisen 20.4.2020 klo 22:15 (UTC +3)
 
 Suurin osa komennoista on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
+
 
 ## a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
@@ -23,9 +25,12 @@ Repositoryn luomisen jälkeen siirryin terminaaliin, missä päivitin ensin pake
 	sudo apt-get update
 	sudo apt-get -y install git
 
+
+
 Kloonasin juuri luomani repositoryn koneelleni komennolla:
 
 	git clone https://github.com/Joni-tech/harjoitus3.git
+
 
 
 Käyttäjän kotihakemistoon luotiin repositoryn nimeä kantava kansio (harjoitus3). Kansio sisälsi samat tiedostot (LICENCE ja README), mitkä näkyivät GitHubin verkkosivuillakin, olihan kyseessä klooni. Loin kansioon tiedoston, johon aloin kirjoittamaan tätä raporttia: 
@@ -33,9 +38,11 @@ Käyttäjän kotihakemistoon luotiin repositoryn nimeä kantava kansio (harjoitu
 	nano harjoitus3/raportti3.md
 
 
+
 Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
 
 	git add . && git commit; git pull && git push
+
 
 Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit). Samalla kysyttiin GitHubin käyttäjätunnusta ja salasanaa. Tunnuksia kysytään aina, kun muutoksia viedään Gitiin. Tunnuksien jatkuvalta kirjoittamiselta vältytään antamalla komento **git config --global credential.helper "cache --timeout=3600"**, joka muistaa tunnuksesi tunnin ajan (60 x 60 sekuntia).
 
@@ -65,6 +72,8 @@ Komennolla **git log** sain listan githubiin viedyistä muutoksista. Ekalla rivi
 
 Lisätietoja: https://git-scm.com/docs/git-log
 
+
+
 ### git diff
 
 Komennolla **git diff** pystyin näkemään tekemäni muutokset, joita en vielä ollut vienyt githubiin. Tarkemmin sanoen omalla koneella olevien tiedostojen eron verrattuna gitissä oleviin. Erot näkyivät vihreänä:
@@ -72,6 +81,8 @@ Komennolla **git diff** pystyin näkemään tekemäni muutokset, joita en vielä
 ![](https://myy.haaga-helia.fi/~bgh330/Linux/3.png "git diff")
 
 Lisätietoja: https://git-scm.com/docs/git-diff
+
+
 
 ### git blame
 
@@ -88,11 +99,14 @@ Rivien alussa ilmeisesti muutoksen ID, minkä jälkeen on muutoksen tekijän nim
 
 Lisätietoja: https://git-scm.com/docs/git-blame
 
+
+
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 Kirjoitin jotakin sotkua raporttiini ja tallensin tiedoston. Tämän jälkeen annoin komennon **git reset --hard**. Sain ilmoituksen paluusta edelliseen committiin. Avasin raporttini ja huomasin kirjoittamieni sotkujen poistuneen. Muu sisältö näytti pysyneen muuttumattomana.
 
 ![](https://myy.haaga-helia.fi/~bgh330/Linux/4.png "git reset --hard")
+
 
 
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
@@ -102,9 +116,13 @@ Päätin tehdä moduulin, joka asentaa htop -nimisen ohjelman, jonka kautta voi 
 	htop:
 	  pkg.installed
 
+
+
 Kävin orjakoneelta katsomassa, ettei htopia ollut asennettuna ennestään, minkä jälkeen annoin masterilla komennon:
 
 	sudo salt '*' state.apply htop
+
+
 
 Aikansa mietittyään sain ilmoituksen onnistuneesta suorituksesta.
 
@@ -115,6 +133,8 @@ Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi 
 ![](https://myy.haaga-helia.fi/~bgh330/Linux/6.png "htop käynnistyi orjalla")
 
 Lopetin tehtävien tekemisen 21.4.2020 klo 18:00 (UTC +3), mutta olin välissä tehnyt muutakin kuin tehtäviä. Koko harjoitukseen ja raportointiin meni tehokasta työaikaa noin viisi tuntia. 
+
+
 
 
 ## Lähteet
