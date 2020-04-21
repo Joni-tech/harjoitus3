@@ -1,6 +1,10 @@
+*Tein tehtävän kotona pöytäkoneellani, jossa oli mm. Intel i5-3570K prosessori, 8GB RAM-muistia, Asus GTX 1060 (6GB) näytönohjain ja käyttöjärjestelmänä Win 10. Jatkoin tehtävien tekemistä VirtualBoxissa (versio 6.1.4) luomillani virtuaalikoneilla, joita käytin edellisissä harjoituksissa: https://joni.tech.blog/2020/04/07/ph-h1/*
+
+Tämän harjoituksen ohjeet osoitteessa: http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+
 Aloitin tehtävien tekemisen 20.4.2020 klo 22:15 (UTC +3)
 
-Käyttämäni komennot on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
+Suurin osa komennoista on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
 
 ## a) MarkDown. Tee tämän tehtävän raportti MarkDownina. Helpointa on tehdä raportti GitHub-varastoon, jolloin md-päätteiset tiedostot muotoillaan automaattisesti. Tyhjä rivi tekee kappalejaon, risuaita ‘#’ tekee otsikon, sisennys merkitsee koodinpätkän.
 
@@ -35,7 +39,7 @@ Saatuani tekstiä raporttiin, päivitin tekemäni muutokset komennolla:
 
 Kyseinen komento synkronoi tehdyt  muutokset kaikkien projektiin osallistuvien kesken, jolloin kaikilla on saatavilla viimeisimmät versiot tiedostoista. Samalla voidaan kommentoida tapahtuneita muutoksia (commit). Samalla kysyttiin GitHubin käyttäjätunnusta ja salasanaa. Tunnuksia kysytään aina, kun muutoksia viedään Gitiin. Tunnuksien jatkuvalta kirjoittamiselta vältytään antamalla komento **git config --global credential.helper "cache --timeout=3600"**, joka muistaa tunnuksesi tunnin ajan (60 x 60 sekuntia).
 
-Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla läysin Markdown-Cheatsheetin, mistä sain mallia otsikointiin, boldauksiin jne.
+Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua. Googlaamalla löysin Markdown-Cheatsheetin, mistä sain mallia otsikointiin, boldauksiin jne.
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Keskeytin tehtävien tekemisen 21.4.2020 klo 0:45 (UTC +3)
@@ -111,3 +115,13 @@ Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi 
 ![](https://myy.haaga-helia.fi/~bgh330/Linux/6.png "htop käynnistyi orjalla")
 
 Lopetin tehtävien tekemisen 21.4.2020 klo 18:00 (UTC +3), mutta olin välissä tehnyt muutakin kuin tehtäviä. Koko harjoitukseen ja raportointiin meni tehokasta työaikaa noin viisi tuntia. 
+
+
+##Lähteet
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+http://terokarvinen.com/2016/publish-your-project-with-github
+https://git-scm.com/docs/git-blame
+https://git-scm.com/docs/git-diff
+https://git-scm.com/docs/git-log
