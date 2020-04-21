@@ -1,3 +1,5 @@
+Testataan ja kirjoitetaan tähän kaiken maailman juttuja
+
 Aloitin tehtävien tekemisen 20.4.2020 klo 22:15 (UTC +3)
 
 Käyttämäni komennot on poimittu Tero Karvisen ohjeista: http://terokarvinen.com/2016/publish-your-project-with-github
