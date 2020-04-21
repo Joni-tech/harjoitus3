@@ -1,6 +1,6 @@
 *Tein tehtävän kotona pöytäkoneellani, jossa oli mm. Intel i5-3570K prosessori, 8GB RAM-muistia, Asus GTX 1060 (6GB) näytönohjain ja käyttöjärjestelmänä Win 10. Jatkoin tehtävien tekemistä VirtualBoxissa (versio 6.1.4) luomillani virtuaalikoneilla, joita käytin edellisissä harjoituksissa: https://joni.tech.blog/2020/04/07/ph-h1/ ja https://joni.tech.blog/2020/04/15/ph-h2/*
 
-Tämän harjoituksen ohjeet osoitteessa: http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
+Tämän harjoituksen ohjeet osoitteessa http://terokarvinen.com/2020/configuration-managment-systems-palvelinten-hallinta-ict4tn022-spring-2020/
 
 Aloitin tehtävien tekemisen 20.4.2020 klo 22:15 (UTC +3)
 
