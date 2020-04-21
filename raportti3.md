@@ -33,8 +33,10 @@ Kävin kurkkaamassa tiedostoa githubista ja huomasin tekstin kaipaavan muotoilua
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Keskeytin tehtävien tekemisen 21.4.2020 klo 0:45 (UTC +3)
-
+Jatkoin tehtävien tekemistä 21.4.2020 klo 14:00 (UTC +3)
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+
+
 
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
