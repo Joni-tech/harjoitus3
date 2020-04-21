@@ -78,4 +78,20 @@ Lisätietoja: https://git-scm.com/docs/git-blame
 
 ## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
+Kirjoitin jotakin sotkua raporttiini ja tallensin tiedoston. Tämän jälkeen annoin komennon **git reset --hard**. Sain ilmoituksen paluusta edelliseen committiin. Avasin raporttini ja huomasin kirjoittamieni sotkujen poistuneen. Muu sisältö näytti pysyneen muuttumattomana.
+
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
+
+Päätin tehdä moduulin, joka asentaa htop -nimisen ohjelman, jonka kautta voi seurata järjestelmätietoja sekä käynnissä olevia prosesseja. Asensin ohjelman ensin käsin komennolla **sudo apt-get -y install htop**, minkä jälkeen käynnistin sovelluksen komennolla **htop**. Ohjelma käynnistyi, ja näytti mm. käynnissä olleet prosessit. Siirryin tekemään aiemmassa harjoituksessani (https://joni.tech.blog/2020/04/07/ph-h1/) luomalle masterille tilatiedostoa. Tein kansioon /srv/salt/ tiedoston htop.sls, jonka sisällöksi kirjoitin:
+
+	htop:
+	  pkg.installed
+
+Kävin orjakoneelta katsomassa, ettei htopia ollut asennettuna ennestään, minkä jälkeen annoin masterilla komennon:
+
+	sudo salt '*' state.apply htop
+
+Aikansa mietittyään sain ilmoituksen onnistuneesta suorituksesta. Kävin orjalla antamassa komennon **htop**, minkä jälkeen ohjelma käynnistyi näyttäen käynnissä olleet prosessit. Luomani tila siis toimi.
+
+
+Lopetin tehtävien tekemisen 21.4.2020 klo 18:00 (UTC +3), mutta olin välissä tehnyt muutakin kuin tehtäviä. Koko harjoitukseen ja raportointiin meni tehokasta työaikaa noin viisi tuntia. 
