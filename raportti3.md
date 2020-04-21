@@ -63,7 +63,7 @@ Lisätietoja: https://git-scm.com/docs/git-diff
 
 ### git blame
 
-Komennolla **git blame** 
+Komennolla **git blame raportti3.md** näin rivikohtaisesti kuka on tehnyt minkäkin muutoksen ja milloin.
 
 	9929affa (Joni Smolander    2020-04-21 00:40:22 +0300 13)       sudo apt-get update
 	7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 14)       sudo apt-get -y install git
@@ -72,6 +72,7 @@ Komennolla **git blame**
 	c7c51255 (Joni Smolander    2020-04-20 23:50:11 +0300 17) 
 	7a0f1155 (Joni Smolander    2020-04-21 00:42:10 +0300 18)       git clone https://github.com/Joni-tech/harjoitus3.git
 
+Rivien alussa ilmeisesti muutoksen ID, minkä jälkeen on muutoksen tekijän nimi sekä muutoksen päivämäärä ja kellonaika. Kellonajan jälkeen näkyy rivin numero. Rivin viimeisenä on itse muutos.
 
 Lisätietoja: https://git-scm.com/docs/git-blame
 
